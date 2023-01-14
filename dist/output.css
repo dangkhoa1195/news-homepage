@@ -518,3 +518,7 @@ html {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.p-2{
+  padding: 0.5rem;
+}
