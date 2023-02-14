@@ -27,25 +27,37 @@
     </style>
   </head>
 
-  <body class="p-4">
+  <body class="grid min-h-screen place-content-center p-4">
     <header id="header">
-      <nav class="">
-        <div class="">
-          <img src="./assets/images/logo.svg" alt="logo" />
+      <nav class="flex flex-row items-center justify-center">
+        <div class="basis-1/2">
+          <a href="#" class=""
+            ><img src="./assets/images/logo.svg" alt="logo"
+          /></a>
         </div>
-        <ul class="">
-          <li><a href="#" class="">Home</a></li>
-          <li><a href="#" class="">New</a></li>
-          <li><a href="#" class="">Popular</a></li>
-          <li><a href="#" class="">Trending</a></li>
-          <li><a href="#" class="">Categories</a></li>
+        <ul
+          class="flex basis-1/2 flex-row justify-end gap-10 text-dark-grayish-blue"
+        >
+          <li>
+            <a href="#" class="transition hover:text-soft-orange">Home</a>
+          </li>
+          <li><a href="#" class="transition hover:text-soft-orange">New</a></li>
+          <li>
+            <a href="#" class="transition hover:text-soft-orange">Popular</a>
+          </li>
+          <li>
+            <a href="#" class="transition hover:text-soft-orange">Trending</a>
+          </li>
+          <li>
+            <a href="#" class="transition hover:text-soft-orange">Categories</a>
+          </li>
         </ul>
       </nav>
     </header>
     <!-- End header -->
-    <main id="main ">
+    <main id="main">
       <div
-        class="wrapper md:mx-auto md:grid md:max-w-[1111px] md:grid-cols-[2fr_1fr] md:place-content-center md:gap-x-8"
+        class="wrapper mt-10 md:mx-auto md:grid md:max-w-[1111px] md:grid-cols-[2fr_1fr] md:place-content-center md:gap-x-8"
       >
         <section class="mb-[60px]">
           <div

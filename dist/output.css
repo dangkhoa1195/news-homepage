@@ -543,8 +543,28 @@ html {
   margin-bottom: 0.5rem;
 }
 
+.mt-14{
+  margin-top: 3.5rem;
+}
+
+.-mt-12{
+  margin-top: -3rem;
+}
+
+.mt-12{
+  margin-top: 3rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
+}
+
 .flex{
   display: flex;
+}
+
+.grid{
+  display: grid;
 }
 
 .h-\[300px\]{
@@ -559,12 +579,8 @@ html {
   height: 130px;
 }
 
-.h-32{
-  height: 8rem;
-}
-
-.max-h-\[130px\]{
-  max-height: 130px;
+.min-h-screen{
+  min-height: 100vh;
 }
 
 .w-full{
@@ -579,24 +595,40 @@ html {
   flex-basis: 66.666667%;
 }
 
+.basis-1\/2{
+  flex-basis: 50%;
+}
+
 .flex-row{
   flex-direction: row;
+}
+
+.place-content-center{
+  place-content: center;
 }
 
 .items-center{
   align-items: center;
 }
 
+.justify-end{
+  justify-content: flex-end;
+}
+
 .justify-center{
   justify-content: center;
 }
 
-.gap-6{
-  gap: 1.5rem;
-}
-
 .gap-5{
   gap: 1.25rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
+}
+
+.justify-self-end{
+  justify-self: end;
 }
 
 .bg-soft-red{
@@ -767,35 +799,7 @@ html {
   color: hsl(5 85% 63% / var(--tw-text-opacity));
 }
 
-@media (min-width: 640px){
-  .sm\:flex{
-    display: flex;
-  }
-
-  .sm\:gap-24{
-    gap: 6rem;
-  }
-
-  .sm\:text-6xl{
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .sm\:text-\[56px\]{
-    font-size: 56px;
-  }
-
-  .sm\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
-  }
-}
-
 @media (min-width: 768px){
-  .md\:col-span-2{
-    grid-column: span 2 / span 2;
-  }
-
   .md\:col-span-full{
     grid-column: 1 / -1;
   }
@@ -803,14 +807,6 @@ html {
   .md\:mx-auto{
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .md\:mt-10{
-    margin-top: 2.5rem;
-  }
-
-  .md\:mb-10{
-    margin-bottom: 2.5rem;
   }
 
   .md\:flex{
@@ -821,44 +817,24 @@ html {
     display: grid;
   }
 
-  .md\:max-h-\[130px\]{
-    max-height: 130px;
-  }
-
   .md\:max-w-\[1111px\]{
     max-width: 1111px;
-  }
-
-  .md\:basis-1\/3{
-    flex-basis: 33.333333%;
-  }
-
-  .md\:basis-2\/3{
-    flex-basis: 66.666667%;
   }
 
   .md\:basis-1\/2{
     flex-basis: 50%;
   }
 
-  .md\:grid-cols-2{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .md\:basis-1\/3{
+    flex-basis: 33.333333%;
   }
 
   .md\:grid-cols-\[2fr_1fr\]{
     grid-template-columns: 2fr 1fr;
   }
 
-  .md\:grid-cols-\[2\.5fr_1fr\]{
-    grid-template-columns: 2.5fr 1fr;
-  }
-
   .md\:place-content-center{
     place-content: center;
-  }
-
-  .md\:place-items-center{
-    place-items: center;
   }
 
   .md\:items-center{
@@ -869,30 +845,6 @@ html {
     justify-content: center;
   }
 
-  .md\:gap-24{
-    gap: 6rem;
-  }
-
-  .md\:gap-20{
-    gap: 5rem;
-  }
-
-  .md\:gap-5{
-    gap: 1.25rem;
-  }
-
-  .md\:gap-14{
-    gap: 3.5rem;
-  }
-
-  .md\:gap-11{
-    gap: 2.75rem;
-  }
-
-  .md\:gap-12{
-    gap: 3rem;
-  }
-
   .md\:gap-10{
     gap: 2.5rem;
   }
@@ -901,28 +853,9 @@ html {
     gap: 2rem;
   }
 
-  .md\:gap-x-7{
-    -moz-column-gap: 1.75rem;
-         column-gap: 1.75rem;
-  }
-
-  .md\:gap-x-6{
-    -moz-column-gap: 1.5rem;
-         column-gap: 1.5rem;
-  }
-
   .md\:gap-x-8{
     -moz-column-gap: 2rem;
          column-gap: 2rem;
-  }
-
-  .md\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .md\:text-\[56px\]{
-    font-size: 56px;
   }
 
   .md\:text-6xl{
